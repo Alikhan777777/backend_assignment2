@@ -2,7 +2,7 @@
 
 A full-stack web application that integrates OpenWeather API and News API to provide real-time weather data and local news for any city. All API calls are made server-side for security and clean architecture.
 
-## 🌟 Features
+##  Features
 
 - **Real-time Weather Data**: Get comprehensive weather information including:
   - Temperature
@@ -20,7 +20,7 @@ A full-stack web application that integrates OpenWeather API and News API to pro
 
 - **Server-Side API Calls**: All third-party API communications happen on the server, keeping API keys secure
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Backend**: Node.js with Express.js
 - **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
@@ -29,7 +29,7 @@ A full-stack web application that integrates OpenWeather API and News API to pro
   - News API (News articles)
 - **Dependencies**: axios, express, cors, dotenv
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Node.js (v14 or higher)
 - npm (Node Package Manager)
@@ -37,7 +37,7 @@ A full-stack web application that integrates OpenWeather API and News API to pro
   - OpenWeather API key (free from [openweathermap.org](https://openweathermap.org/api))
   - News API key (free from [newsapi.org](https://newsapi.org/))
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone or Download the Project
 
@@ -180,7 +180,7 @@ GET /api/data?city=London
 }
 ```
 
-## 🎨 Design Decisions
+##  Design Decisions
 
 ### 1. Server-Side API Integration
 - **Reason**: API keys are kept secure on the server, not exposed to the client
@@ -213,7 +213,7 @@ GET /api/data?city=London
 - Accessible color contrast
 - Keyboard navigation support (Enter key to search)
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 assignment2/
@@ -228,7 +228,7 @@ assignment2/
 └── README.md           # This file
 ```
 
-## 🔧 Configuration
+##  Configuration
 
 ### Environment Variables
 
@@ -245,7 +245,7 @@ Change the port by:
 2. Setting the `PORT` environment variable, or
 3. Modifying the default in `server.js`
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Server won't start
 - Ensure Node.js is installed: `node --version`
@@ -268,7 +268,7 @@ Change the port by:
 - If exceeded, weather data will still display
 - Consider upgrading API plan or implementing caching
 
-## 📝 Testing with Postman
+##  Testing with Postman
 
 ### Testing Weather Endpoint
 
@@ -292,7 +292,7 @@ Change the port by:
 3. Send request
 4. Check response for both weather and news data
 
-## 📸 Screenshots
+##  Screenshots
 
 *Note: Add screenshots of your application here showing:*
 - Main interface with weather data
@@ -300,23 +300,24 @@ Change the port by:
 - Mobile responsive view
 - Postman API responses
 
-## 🚦 API Rate Limits
+##  API Rate Limits
 
 - **OpenWeather API**: Free tier allows 60 calls/minute
 - **News API**: Free tier allows 100 requests/day
 
 Consider implementing caching or request throttling for production use.
 
-## 📄 License
+##  License
 
 This project is created for educational purposes as part of Assignment 2.
 
-## 👨‍💻 Author
+##  Author
 
 [Your Name]
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - OpenWeather for weather data API
 - News API for news articles
 - Express.js community for excellent documentation
+
