@@ -292,14 +292,6 @@ Change the port by:
 3. Send request
 4. Check response for both weather and news data
 
-##  Screenshots
-
-*Note: Add screenshots of your application here showing:*
-- Main interface with weather data
-- News section
-- Mobile responsive view
-- Postman API responses
-
 ##  API Rate Limits
 
 - **OpenWeather API**: Free tier allows 60 calls/minute
@@ -313,11 +305,12 @@ This project is created for educational purposes as part of Assignment 2.
 
 ##  Author
 
-[Your Name]
+Alikhan Zhanybek
 
 ##  Acknowledgments
 
 - OpenWeather for weather data API
 - News API for news articles
 - Express.js community for excellent documentation
+
 
